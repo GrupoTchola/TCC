@@ -69,7 +69,7 @@ $stmt->execute();
         <i class="fa-solid fa-at"></i>
            <input type="email" placeholder="E-mail Id"> 
         </div>
-        <div class="input-box">
+        <div class="input-box2">
             <i class="fa-solid fa-lock"></i>
             <input type="password" placeholder="Senha" id="passId"> 
         <span class="eye" onclick="eyefunction()">
@@ -77,8 +77,24 @@ $stmt->execute();
             <i id="hide2" class="fa-solid fa-eye-slash"></i>
         </span>
         </div>
+
+        <div class="forgot-password">
+            <a href="#" class="make-new-password">Esqueci minha senha</a>
+        </div>
+
+
+        <div class="btns">
         <button type="button" class="login-btn">LOGIN</button>
     </div>
+
+
+    <div class="new-account">
+        <a href="#" class="make-new-account">Se não tiver uma conta <span>Faça seu Cadastro</span> </a>
+    </div>
+
+
+ 
+
     <script>
         function eyefunction(){
             var x= document.getElementById("passId");

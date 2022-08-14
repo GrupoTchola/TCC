@@ -53,6 +53,9 @@ section {
     color: #fff;
   }
 
+  .new-account span{
+    color: rgb(190, 190, 190);
+  }
 
 .heading span {
   font-size: 3rem;
@@ -166,40 +169,6 @@ body {
     margin: 0;
 }
 
-.new-account a {
-    display: inline-block;
-    padding: 10px 20pz;
-    font-size: 15px;
-    color: grey;
-    margin-left: 110px;
-  }
-
-  .new-account span{
-    color: rgb(190, 190, 190);
-  }
-
-
-
-
-
-
-  .forgot-password a {
-    display: inline-block;
-    padding: 10px 20pz;
-    font-size: 15px;
-    color: rgb(53, 52, 52);
-    margin-left: 50px;
-  }
-
-  .forgot-password a:hover{
-    color: #aaa;
-  }
-
-
-
-
-
-
 .form-box{
   width: 500px;
   background: rgba(0, 0, 0, 0.8);
@@ -228,6 +197,8 @@ h1{
   outline: none;
   background: transparent;
   color: #fff;
+  margin-left: 10px;
+
 }
 
 .input-box2{
@@ -244,7 +215,9 @@ h1{
   outline: none;
   background: transparent;
   color: #fff;
+  margin-left: 10px;
 }
+
 
 ::placeholder{
   color: #ccc;
@@ -309,8 +282,34 @@ h1{
 }
 
 
+.forgot-password a {
+  display: inline-block;
+  padding: 10px 20pz;
+  font-size: 15px;
+  color: rgb(53, 52, 52);
+  margin-left: 50px;
+}
 
+.forgot-password a:hover{
+  color: rgb(148, 148, 148);
+}
 
+.new-account a {
+  display: inline-block;
+  padding: 1rem 1rem;
+  font-size: 15px;
+  color: grey;
+  margin-left: 100px;
+}
+
+.login-btn:hover{
+  background: #111;
+  border:#111;
+}
+
+.new-account span:hover{
+  color: white;
+}
 
 
 @media (max-width: 768px) {
